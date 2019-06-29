@@ -1,0 +1,29 @@
+p {
+	text-transform: uppercase;
+	font: bold italic 120% serif;
+	
+}
+
+ a:hover {
+    background: #786b59; 
+    color: #ffe;  
+   } 
+
+.block1 p, .block2 p { 
+text-align: center;
+line-height: 1;
+}
+
+.block1, .block2 {
+max-width: 40%;
+display: inline-block;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+span {
+	margin-left: 25%;
+	border: 5px double black;
+	padding: 10px;
+}
