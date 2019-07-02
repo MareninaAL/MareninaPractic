@@ -1,0 +1,34 @@
+table {
+	border : 4px solid grey;
+	border-spacing: 0px 0px;
+	background: linear-gradient(to top right, #f5da42, #969);
+}
+
+th {
+background: #f7d92f;
+}
+
+tr:hover {
+  background-color: #faea91;
+  z-index: 1;
+}
+td {
+	text-align: center; 
+}
+
+td:hover:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 38px;
+    height: 18%;
+    bottom: 0;
+    background: rgba(225, 225, 225, 0.2);
+    z-index: 2;
+	
+}
+
+
+td, td:hover:after { width: 100px; }
+
+
